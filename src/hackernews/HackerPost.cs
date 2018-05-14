@@ -18,7 +18,7 @@ namespace hackernews
 
 		[Range(0, Int32.MaxValue)]
         public int points { get; set; }
-
+        
 		[Range(0, Int32.MaxValue)]
         public int comments { get; set; }
 
@@ -28,7 +28,10 @@ namespace hackernews
         public HackerPost(string title, string uri, string author, int points, int comments, int rank) 
         {
             this.title = title;
-            this.uri = uri;
+			if (Uri.IsWellFormedUriString(uri, UriKind.Absolute))
+			{
+				this.uri = uri;
+			}
             this.author = author;
             this.points = points;
             this.comments = comments;

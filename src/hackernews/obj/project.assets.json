@@ -695,13 +695,13 @@
       "projectName": "hackernews",
       "projectPath": "/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/hackernews.csproj",
       "packagesPath": "/Users/Yuliia/.nuget/packages/",
-      "outputPath": "/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/obj/",
+      "outputPath": "/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Yuliia/.nuget/NuGet/NuGet.Config"
+        "/Users/Yuliia/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -724,13 +724,14 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           },
           "RestSharp": {
             "target": "Package",
-            "version": "[106.2.2, )"
+            "version": "106.2.2"
           }
         },
         "imports": [
