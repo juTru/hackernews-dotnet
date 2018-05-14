@@ -38,9 +38,12 @@ namespace hackernews
             for (int i = 0; i < postsNumber; i++)
             {
                 HackerPost post = client.GetHackerPost(topStories[i]);
-
-                RestSharp.Serializers.JsonSerializer serializer = new RestSharp.Serializers.JsonSerializer();
-                Console.WriteLine(serializer.Serialize(post));
+                
+                if (post != null) 
+                {
+                    RestSharp.Serializers.JsonSerializer serializer = new RestSharp.Serializers.JsonSerializer();
+                    Console.WriteLine(serializer.Serialize(post));
+                }
             }
         }
 

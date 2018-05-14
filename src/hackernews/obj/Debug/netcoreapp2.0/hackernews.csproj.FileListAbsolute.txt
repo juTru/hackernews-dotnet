@@ -8,3 +8,4 @@
 /Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/bin/Debug/netcoreapp2.0/hackernews.pdb
 /Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/obj/Debug/netcoreapp2.0/hackernews.dll
 /Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/obj/Debug/netcoreapp2.0/hackernews.pdb
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/obj/Debug/netcoreapp2.0/hackernews.csprojResolveAssemblyReference.cache

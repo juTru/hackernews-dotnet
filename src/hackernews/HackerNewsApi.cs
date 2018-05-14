@@ -47,6 +47,8 @@ namespace hackernews
             request.AddParameter("postId", postId, ParameterType.UrlSegment);
 
             HackerPostApiResponse post = Execute<HackerPostApiResponse>(request);
+            if(post == null)
+               return null;
             return post.toHackerPost();
         }
          
@@ -59,10 +61,12 @@ namespace hackernews
         public string url { get; set; }
         public string by { get; set; }
         public int score { get; set; }
-        public List<int> kids { get; set; }
+		public List<int> kids { get; set; } = new List<int>();
         public Type type { get; set; }
         public HackerPost toHackerPost()
         {
+			//int kidsCount = 0;
+            //if(kids != null) 
             return new HackerPost(this.title, this.url, this.by, this.score, this.kids.Count, (int)type);
         }
 
