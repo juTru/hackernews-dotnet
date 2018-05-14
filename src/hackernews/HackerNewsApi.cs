@@ -29,13 +29,12 @@ namespace hackernews
 
             return response.Data;
         }
-
+        
         public List<int> GetTopStories()
         {
             var request = new RestRequest("topstories.json", Method.GET);
 
-            List<int> stories = Execute<List<int>>(request);
-            return stories;
+            return Execute<List<int>>(request);
         }
 
         public HackerPost GetHackerPost(int postId)

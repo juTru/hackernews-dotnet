@@ -1,30 +1,30 @@
 ﻿<Properties StartupConfiguration="{7DC61FB4-7BFC-4E45-8912-62D43A4B52B9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HackerPost.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="HackerNewsApi.cs" Line="1" Column="1" />
-      <File FileName="Program.cs" Line="39" Column="1" />
-      <File FileName="HackerPost.cs" Line="18" Column="1" />
+      <File FileName="HackerNewsApi.cs" Line="33" Column="40" />
+      <File FileName="Program.cs" Line="43" Column="44" />
+      <File FileName="HackerPost.cs" Line="12" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.hackernews PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="10" column="1" />
       <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="39" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="41" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="45" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="47" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="43" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="12" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="13" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="15" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="18" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="24" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="28" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="31" column="1" />
       <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="36" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="34" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/HackerPost.cs" relfile="HackerPost.cs" line="21" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/HackerPost.cs" relfile="HackerPost.cs" line="20" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/HackerPost.cs" relfile="HackerPost.cs" line="17" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/HackerPost.cs" relfile="HackerPost.cs" line="18" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/HackerPost.cs" relfile="HackerPost.cs" line="19" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/HackerPost.cs" relfile="HackerPost.cs" line="22" column="1" />
-      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/HackerPost.cs" relfile="HackerPost.cs" line="23" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="37" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="38" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="40" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="42" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="44" column="1" />
+      <Breakpoint file="/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/Program.cs" relfile="Program.cs" line="45" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

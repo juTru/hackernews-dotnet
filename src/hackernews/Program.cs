@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace hackernews
 {
@@ -35,16 +36,21 @@ namespace hackernews
             HackerNewsApi client = new HackerNewsApi();
             List<int> topStories = client.GetTopStories();
 
-            for (int i = 0; i < postsNumber; i++)
-            {
-                HackerPost post = client.GetHackerPost(topStories[i]);
-                
-                if (post != null) 
-                {
-                    RestSharp.Serializers.JsonSerializer serializer = new RestSharp.Serializers.JsonSerializer();
-                    Console.WriteLine(serializer.Serialize(post));
-                }
-            }
+			int i = 1;
+			int j = 0;
+			while (i <= postsNumber && j <= topStories.Count)
+			{
+				HackerPost post = client.GetHackerPost(topStories[j]);
+				var vc = new ValidationContext(post, null);
+				var isValid = Validator.TryValidateObject(post, vc, null, true);
+				if (isValid)
+				{
+					RestSharp.Serializers.JsonSerializer serializer = new RestSharp.Serializers.JsonSerializer();
+					Console.WriteLine(serializer.Serialize(post));
+					i++;
+				}
+				j++;
+			}
         }
 
     }
