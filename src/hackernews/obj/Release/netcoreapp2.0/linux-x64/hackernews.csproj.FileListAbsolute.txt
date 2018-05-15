@@ -1,0 +1,13 @@
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/bin/Release/netcoreapp2.0/linux-x64/libhostpolicy.so
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/bin/Release/netcoreapp2.0/linux-x64/libhostfxr.so
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/bin/Release/netcoreapp2.0/linux-x64/hackernews
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/bin/Release/netcoreapp2.0/linux-x64/hackernews.deps.json
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/bin/Release/netcoreapp2.0/linux-x64/hackernews.runtimeconfig.json
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/bin/Release/netcoreapp2.0/linux-x64/hackernews.runtimeconfig.dev.json
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/bin/Release/netcoreapp2.0/linux-x64/hackernews.dll
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/bin/Release/netcoreapp2.0/linux-x64/hackernews.pdb
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/obj/Release/netcoreapp2.0/linux-x64/hackernews.csproj.CoreCompileInputs.cache
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/obj/Release/netcoreapp2.0/linux-x64/hackernews.AssemblyInfoInputs.cache
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/obj/Release/netcoreapp2.0/linux-x64/hackernews.AssemblyInfo.cs
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/obj/Release/netcoreapp2.0/linux-x64/hackernews.dll
+/Users/Yuliia/TrueLayer/git/hackernews-dotnet/src/hackernews/obj/Release/netcoreapp2.0/linux-x64/hackernews.pdb
