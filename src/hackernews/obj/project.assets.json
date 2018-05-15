@@ -207,7 +207,7 @@
         }
       }
     },
-    ".NETCoreApp,Version=v2.0/linux-x64": {
+    ".NETCoreApp,Version=v2.0/ubuntu-x64": {
       "Microsoft.NETCore.App/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -1534,7 +1534,7 @@
       }
     },
     "runtimes": {
-      "linux-x64": {
+      "ubuntu-x64": {
         "#import": []
       }
     }
